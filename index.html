@@ -3,12 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
+
+  <title>Daily Quotes</title>
   <link href='/style.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
+
+  <div class="quote-box">
+    <h2>Quote Hari Ini</h2>
+    <blockquote id="quote">Loading...</blockquote>
+    <span id="author">Loading...</span>
+    <div>
+      <button onclick="getquote(api_url)">Quotes Baru</button>
+      <button onclick="tweet()"> <img src="twitter-x-logo-42554 (1).png" alt="">Berbagi</button>
+    </div>
+  </div>
+
+
+
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
 </html>
