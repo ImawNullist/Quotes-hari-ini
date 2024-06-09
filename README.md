@@ -1,3 +1,7 @@
+
+Quote API: https://github.com/lukePeavey/quotable
+
+
 Kode JavaScript ini digunakan untuk mengambil kutipan acak dari API dan menampilkannya di halaman web, serta menyediakan fungsionalitas untuk membagikan kutipan tersebut di Twitter.
 
 Penjelasan kode:
